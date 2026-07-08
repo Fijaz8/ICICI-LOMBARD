@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\2497811\AppData\Local\Temp\testng-eclipse-816764125\testng-customsuite.xml</span>
+                    <span>C:\Users\2497811\AppData\Local\Temp\testng-eclipse-476797639\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user can select a Schengen country as travel region11&quot;, &quot;Travel Insurance Navigation&quot;)">runScenario("Verify user can select a Schengen country as travel region11", "Travel Insurance Navigation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Travel Insurance page navigation&quot;, &quot;Travel Insurance Navigation&quot;)">runScenario("Verify Travel Insurance page navigation", "Travel Insurance Navigation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify travel date selection behavior based on configured dates&quot;, &quot;Travel Insurance Navigation&quot;)">runScenario("Verify travel date selection behavior based on configured dates", "Travel Insurance Navigation")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,10 +136,30 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Verify user can select a Schengen country as travel region11&quot;, &quot;Travel Insurance Navigation&quot;)">
+                  </a> <!-- runScenario("Verify user can select a Schengen country as travel region11", "Travel Insurance Navigation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user can select a Schengen country as travel region11","Travel Insurance Navigation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Verify Travel Insurance page navigation&quot;, &quot;Travel Insurance Navigation&quot;)">
                   </a> <!-- runScenario("Verify Travel Insurance page navigation", "Travel Insurance Navigation") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Verify Travel Insurance page navigation","Travel Insurance Navigation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify travel date selection behavior based on configured dates&quot;, &quot;Travel Insurance Navigation&quot;)">
+                  </a> <!-- runScenario("Verify travel date selection behavior based on configured dates", "Travel Insurance Navigation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify travel date selection behavior based on configured dates","Travel Insurance Navigation")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -139,7 +169,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\2497811\AppData\Local\Temp\testng-eclipse-816764125\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\2497811\AppData\Local\Temp\testng-eclipse-476797639\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,16 +226,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runner.TestRunner')
-data.setCell(0, 3, 15339);
+data.setCell(0, 3, 28405);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runner.TestRunner')
+data.setCell(1, 3, 22205);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runner.TestRunner')
+data.setCell(2, 3, 11776);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -233,16 +271,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@46d567cb)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@4996c99)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify Travel Insurance page navigation", "Travel Insurance Navigation")</span>
-                <span class="method-start">496 ms</span>
+                <span class="method-start">757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user can select a Schengen country as travel region11", "Travel Insurance Navigation")</span>
+                <span class="method-start">12552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify travel date selection behavior based on configured dates", "Travel Insurance Navigation")</span>
+                <span class="method-start">34765 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">15844 ms</span>
+                <span class="method-start">63174 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
