@@ -4,7 +4,11 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = {
+//        		"src/test/resources/features/TC11.feature", 
+//        		"src/test/resources/features/TC12.feature", 
+//        		"src/test/resources/features/TC13.feature",
+        		"src/test/resources/features/TC14.feature"},
         glue     = {"stepDefinition", "Hooks"},
         plugin   = {
                     "pretty",

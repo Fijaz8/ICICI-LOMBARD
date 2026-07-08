@@ -11,14 +11,10 @@ public class hook extends BaseTest {
 
         initializeDriver();
 
-        launchApplication(
-            "https://www.icicilombard.com"
-        );
     }
 
     @After
     public void tearDown() {
 
-        quitBrowser();
     }
 }

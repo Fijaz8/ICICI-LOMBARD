@@ -17,12 +17,13 @@ public class BaseTest {
 
         driver.manage().timeouts()
               .implicitlyWait(Duration.ofSeconds(10));
+        driver.get("https://www.icicilombard.com");
     }
 
-    public void launchApplication(String url) {
-
-        driver.get(url);
-    }
+//    public void launchApplication(String url) {
+//
+//        
+//    }
 
     public void quitBrowser() {
 
@@ -31,7 +32,7 @@ public class BaseTest {
         }
     }
 
-    public WebDriver getDriver() {
+    public static WebDriver getDriver() {
         return driver;
     }
 }

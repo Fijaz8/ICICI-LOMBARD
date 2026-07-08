@@ -1,5 +1,5 @@
 Feature: Travel Insurance Navigation
-
+	
   Scenario: Verify Travel Insurance page navigation
 
     Given user launches the ICICI Lombard website
