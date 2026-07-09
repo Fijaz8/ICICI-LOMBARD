@@ -42,6 +42,10 @@ public class HomePage {
     private WebElement travelInsuranceOption;
     
 //    
+    @FindBy(xpath="//button[text()='Get quote']")
+    private WebElement quoteButton ;
+    
+    
     private void scrollIntoView(WebElement element) {
         ((JavascriptExecutor) driver).executeScript(
                 "arguments[0].scrollIntoView({block:'center'});", element);
@@ -207,7 +211,9 @@ public class HomePage {
              return true;
          }
      }
-
+     public void clickButton() {
+    	 quoteButton.click();
+     }
      
      
     }
