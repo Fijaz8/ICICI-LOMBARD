@@ -1,5 +1,10 @@
 Feature: Verify user is redirected to the Car Model Selection page after entering a valid mobile number for a new vehicle
 
+Background:
+When User CLicks Car Insurance Nav in Home Page
+
+Then User Redirects to Car Insurance Page
+
 Scenario Outline: Verify redirection to Car Model Selection page with valid mobile number
 
 When User selects Got a New Vehicle option
