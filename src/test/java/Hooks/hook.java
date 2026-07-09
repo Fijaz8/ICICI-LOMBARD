@@ -19,6 +19,6 @@ public class hook extends BaseTest {
     @After
     public void tearDown() {
 
-//        quitBrowser();
+        quitBrowser();
     }
 }
