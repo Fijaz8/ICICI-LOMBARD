@@ -1,5 +1,9 @@
 
 Feature: Verify validation message for invalid mobile number when purchasing insurance for a new vehicle
+Background:
+When User CLicks Car Insurance Nav in Home Page
+
+Then User Redirects to Car Insurance Page
 
 Scenario Outline: Verify validation message for invalid mobile number
 

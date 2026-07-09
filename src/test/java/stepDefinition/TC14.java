@@ -6,18 +6,12 @@ import base.BaseTest;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.CarInsurancePage;
-import pages.HomePage;
 
 public class TC14 extends BaseTest{
-	HomePage Hp;
 	CarInsurancePage Cp;
 	@When("User selects Got a New Vehicle option")
 	public void user_selects_got_a_new_vehicle_option() {
 	    // Write code here that turns the phrase above into concrete actions
-		Hp = new HomePage(getDriver());
-		Hp.clickCarInsurance();
-		String title = Hp.verifyCarInsurancePage();
-		System.out.println(title);
 		Cp = new CarInsurancePage(getDriver());
 		Cp.clickGotNewVehicle();
 	}
