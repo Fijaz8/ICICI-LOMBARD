@@ -7,6 +7,7 @@ Then User Redirects to Car Insurance Page
 
 When User selects Got a New Vehicle option
 
+@TS3
 Scenario Outline: Verify validation messages for blank City and Car Model fields
 
 And User enters a valid mobile number "<mobile>"

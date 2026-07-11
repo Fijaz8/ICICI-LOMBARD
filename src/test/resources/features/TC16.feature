@@ -5,6 +5,7 @@ When User CLicks Car Insurance Nav in Home Page
 Then User Redirects to Car Insurance Page
 And User selects Got a New Vehicle option
 
+@TS3
 Scenario Outline: Verify redirection to Plan Selection page with valid details
 
 When User enters a valid mobile number "<mobile>"

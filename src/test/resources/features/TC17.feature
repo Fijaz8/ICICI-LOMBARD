@@ -5,8 +5,8 @@ When User CLicks Car Insurance Nav in Home Page
 Then User Redirects to Car Insurance Page
 And User selects Got a New Vehicle option
 
-Scenario Outline:
-Verify Car Details are Editable 
+@TS3
+Scenario Outline: Verify Car Details are Editable 
 
 When User enters a valid mobile number "<mobile>"
 And User clicks on Get Quote button

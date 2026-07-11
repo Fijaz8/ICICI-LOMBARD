@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-11T17:03:20 IST" name="Default suite" finished-at="2026-07-11T17:10:45 IST" duration-ms="445092">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-07-11T17:03:20 IST" name="Default test" finished-at="2026-07-11T17:10:45 IST" duration-ms="445092">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:03:20 IST" name="setUpClass" finished-at="2026-07-11T17:03:22 IST" duration-ms="1691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@239d73ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:03:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:03:44 IST" duration-ms="22367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Car Tab Display Verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify Car Widget Displayed Or Not"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:03:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:04:08 IST" duration-ms="23149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify validation messages when car registration number and mobile number are blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify validation messages for mandatory fields"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:04:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:04:29 IST" duration-ms="21209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify validation message for invalid mobile number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify validation message for invalid mobile number when purchasing insurance for a new vehicle"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:04:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:05:00 IST" duration-ms="31068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify redirection to Car Model Selection page with valid mobile number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify user is redirected to the Car Model Selection page after entering a valid mobile number for a new vehicle"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:05:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:05:36 IST" duration-ms="36541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify validation messages for blank City and Car Model fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify validation messages when City and Car Model are not provided"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:05:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:06:11 IST" duration-ms="34221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify redirection to Plan Selection page with valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify user is redirected to the Plan Selection page after entering valid vehicle details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:06:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:06:47 IST" duration-ms="36287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Car Details are Editable"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify user can edit the car details in the Plan page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:06:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:07:07 IST" duration-ms="19589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Travel Insurance page navigation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Travel Insurance Navigation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:07:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:07:34 IST" duration-ms="27675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can select a Schengen country as travel region"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Travel Insurance Navigation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:07:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:07:57 IST" duration-ms="22358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify travel date selection behavior based on configured dates"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Travel Insurance Navigation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:07:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:08:31 IST" duration-ms="34664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify clicking Get Quote button redirects to the quote details page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Travel Insurance Navigation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:08:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:09:18 IST" duration-ms="46423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify form submission with valid mobile, email and T&C accepted"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Travel Insurance Navigation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:09:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:10:01 IST" duration-ms="43469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Capture all curated travel plans from the carousel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Travel Insurance Navigation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:10:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-11T17:10:44 IST" duration-ms="42874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify each plan displays medical cover amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Travel Insurance Navigation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@49438269]" started-at="2026-07-11T17:10:44 IST" name="tearDownClass" finished-at="2026-07-11T17:10:45 IST" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

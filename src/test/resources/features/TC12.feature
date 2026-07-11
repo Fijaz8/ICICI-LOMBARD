@@ -7,6 +7,7 @@ When User CLicks Car Insurance Nav in Home Page
 
 Then User Redirects to Car Insurance Page
 
+@TS3
 Scenario: Verify validation messages when car registration number and mobile number are blank
 
 When User leaves Car Registration Number and Mobile Number fields blank

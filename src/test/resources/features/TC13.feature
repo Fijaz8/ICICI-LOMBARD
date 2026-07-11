@@ -5,6 +5,7 @@ When User CLicks Car Insurance Nav in Home Page
 
 Then User Redirects to Car Insurance Page
 
+@TS3
 Scenario Outline: Verify validation message for invalid mobile number
 
 When User selects Got a New Vehicle
